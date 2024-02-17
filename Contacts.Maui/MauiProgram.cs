@@ -1,4 +1,6 @@
 ﻿using CommunityToolkit.Maui;
+using Contacts.Maui.Views;
+using Contacts.UseCases;
 using Microsoft.Extensions.Logging;
 
 namespace Contacts.Maui
@@ -10,6 +12,7 @@ namespace Contacts.Maui
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -24,6 +27,11 @@ namespace Contacts.Maui
             builder.Logging.AddDebug();
 #endif
 
+            builder
+                .Services.ConfigurePages();
+
+            builder
+                .Services.ConfigureServices();
             return builder.Build();
         }
     }

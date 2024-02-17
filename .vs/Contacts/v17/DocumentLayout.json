@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\contactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\contactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\contactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\contactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\viewmodels\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\viewmodels\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7164459-6C62-4C4F-87EF-C6D1436AE3E7}|Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.plugins.datastore.inmemory\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7164459-6C62-4C4F-87EF-C6D1436AE3E7}|Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj|solutionrelative:contacts.plugins.datastore.inmemory\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\usecases\\addcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\usecases\\addcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\usecases\\deletecontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\usecases\\deletecontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\interfaces\\ideletecontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\interfaces\\ideletecontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\interfaces\\ieditcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\interfaces\\ieditcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\usecases\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\usecases\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\usecases\\editcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\usecases\\editcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\contacts.usecases.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\contacts.usecases.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\contacts.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\contacts.maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\addcontactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\addcontactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\addcontactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\addcontactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\editcontactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\editcontactpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\editcontactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\editcontactpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\views\\controls\\contactcontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\views\\controls\\contactcontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\interfaces\\iaddcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\interfaces\\iaddcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7164459-6C62-4C4F-87EF-C6D1436AE3E7}|Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.plugins.datastore.inmemory\\contacts.plugins.datastore.inmemory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B7164459-6C62-4C4F-87EF-C6D1436AE3E7}|Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj|solutionrelative:contacts.plugins.datastore.inmemory\\contacts.plugins.datastore.inmemory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\usecases\\viewcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\usecases\\viewcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\interfaces\\iviewcontactsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\interfaces\\iviewcontactsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\interfaces\\iviewcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\interfaces\\iviewcontactusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7164459-6C62-4C4F-87EF-C6D1436AE3E7}|Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.plugins.datastore.inmemory\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7164459-6C62-4C4F-87EF-C6D1436AE3E7}|Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj|solutionrelative:contacts.plugins.datastore.inmemory\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C705A29-2C7F-4B33-A15A-FE4E77008C47}|Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.corebusiness\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C705A29-2C7F-4B33-A15A-FE4E77008C47}|Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj|solutionrelative:contacts.corebusiness\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.usecases\\usecases\\viewcontactsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB73648A-0D29-4475-9668-121CB5CF6644}|Contacts.UseCases\\Contacts.UseCases.csproj|solutionrelative:contacts.usecases\\usecases\\viewcontactsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|c:\\users\\ksogbo\\source\\repos\\contacts\\contacts.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6471C7E1-8B86-48B4-B3CE-A830BC1438AB}|Contacts.Maui\\Contacts.Maui.csproj|solutionrelative:contacts.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\ViewModels\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\ViewModels\\ContactViewModel.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\ViewModels\\ContactViewModel.cs",
+              "RelativeToolTip": "Contacts.Maui\\ViewModels\\ContactViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T07:28:17.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\ContactPage.xaml",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\ContactPage.xaml",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\ContactPage.xaml",
+              "RelativeToolTip": "Contacts.Maui\\Views\\ContactPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-24T11:31:32.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Contacts.Plugins.DataStore.InMemory\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\ContactRepository.cs",
+              "RelativeToolTip": "Contacts.Plugins.DataStore.InMemory\\ContactRepository.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwD0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:13:04.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Interfaces\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IContactRepository.cs",
+              "RelativeToolTip": "Contacts.UseCases\\Interfaces\\IContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:47:13.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\ContactPage.xaml.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\ContactPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\ContactPage.xaml.cs",
+              "RelativeToolTip": "Contacts.Maui\\Views\\ContactPage.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwAYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:26:31.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\GlobalUsings.cs",
+              "RelativeToolTip": "Contacts.Maui\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T10:26:04.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Contacts.Maui\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T10:23:01.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDeleteContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IDeleteContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Interfaces\\IDeleteContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IDeleteContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\Interfaces\\IDeleteContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T11:58:25.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\AddContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\UseCases\\AddContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\AddContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\UseCases\\AddContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T11:08:40.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\DeleteContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\UseCases\\DeleteContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\DeleteContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\UseCases\\DeleteContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T11:54:42.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\UseCases\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\GlobalUsings.cs",
+              "RelativeToolTip": "Contacts.UseCases\\UseCases\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T11:54:01.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Contacts.UseCases.csproj",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Contacts.UseCases.csproj",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj",
+              "RelativeToolTip": "Contacts.UseCases\\Contacts.UseCases.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-06T10:09:16.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEditContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IEditContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Interfaces\\IEditContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IEditContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\Interfaces\\IEditContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T10:18:26.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAddContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IAddContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Interfaces\\IAddContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IAddContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\Interfaces\\IAddContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T11:12:12.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\EditContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\UseCases\\EditContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\EditContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\UseCases\\EditContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T10:09:44.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddContactPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\AddContactPage.xaml",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\AddContactPage.xaml",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\AddContactPage.xaml",
+              "RelativeToolTip": "Contacts.Maui\\Views\\AddContactPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-24T11:53:24.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddContactPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\AddContactPage.xaml.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\AddContactPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\AddContactPage.xaml.cs",
+              "RelativeToolTip": "Contacts.Maui\\Views\\AddContactPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:53:26.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Contacts.Maui.csproj",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Contacts.Maui.csproj",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Contacts.Maui.csproj",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Contacts.Maui.csproj",
+              "RelativeToolTip": "Contacts.Maui\\Contacts.Maui.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-24T11:17:24.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditContactPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\EditContactPage.xaml",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\EditContactPage.xaml",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\EditContactPage.xaml",
+              "RelativeToolTip": "Contacts.Maui\\Views\\EditContactPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-24T11:26:53.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditContactPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\EditContactPage.xaml.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\EditContactPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\EditContactPage.xaml.cs",
+              "RelativeToolTip": "Contacts.Maui\\Views\\EditContactPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:08:25.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContactControls.xaml",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\Controls\\ContactControls.xaml",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Views\\Controls\\ContactControls.xaml",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Views\\Controls\\ContactControls.xaml",
+              "RelativeToolTip": "Contacts.Maui\\Views\\Controls\\ContactControls.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-06T10:56:23.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Contacts.Plugins.DataStore.InMemory.csproj",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj",
+              "RelativeDocumentMoniker": "Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj",
+              "RelativeToolTip": "Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-24T11:13:01.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ViewContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\ViewContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\UseCases\\ViewContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\ViewContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\UseCases\\ViewContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:24:37.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\MauiProgram.cs",
+              "RelativeToolTip": "Contacts.Maui\\MauiProgram.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-11T13:48:47.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IViewContactUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IViewContactUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Interfaces\\IViewContactUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IViewContactUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\Interfaces\\IViewContactUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:23:25.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Models\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "Contacts.Maui\\Models\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Models\\ContactRepository.cs",
+              "RelativeToolTip": "Contacts.Maui\\Models\\ContactRepository.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAA4wFkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:47:47.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IViewContactsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IViewContactsUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\Interfaces\\IViewContactsUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Interfaces\\IViewContactsUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\Interfaces\\IViewContactsUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:11:09.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Contacts.Plugins.DataStore.InMemory\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\GlobalUsings.cs",
+              "RelativeToolTip": "Contacts.Plugins.DataStore.InMemory\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:47:08.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contact.cs",
+              "RelativeDocumentMoniker": "Contacts.CoreBusiness\\Contact.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contact.cs",
+              "RelativeToolTip": "Contacts.CoreBusiness\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-06T09:47:39.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViewContactsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\ViewContactsUseCase.cs",
+              "RelativeDocumentMoniker": "Contacts.UseCases\\UseCases\\ViewContactsUseCase.cs",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\UseCases\\ViewContactsUseCase.cs",
+              "RelativeToolTip": "Contacts.UseCases\\UseCases\\ViewContactsUseCase.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T11:13:28.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\App.xaml",
+              "RelativeDocumentMoniker": "Contacts.Maui\\App.xaml",
+              "ToolTip": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\App.xaml",
+              "RelativeToolTip": "Contacts.Maui\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-24T11:26:51.903Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

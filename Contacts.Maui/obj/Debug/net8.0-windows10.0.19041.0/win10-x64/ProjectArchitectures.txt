@@ -1,0 +1,7 @@
+C:\Users\ksogbo\source\repos\Contacts\Contacts.CoreBusiness\Contacts.CoreBusiness.csproj;neutral
+C:\Users\ksogbo\source\repos\Contacts\Contacts.CoreBusiness\Contacts.CoreBusiness.csproj;neutral
+C:\Users\ksogbo\source\repos\Contacts\Contacts.CoreBusiness\Contacts.CoreBusiness.csproj;neutral
+C:\Users\ksogbo\source\repos\Contacts\Contacts.Maui\Contacts.Maui.csproj;x64
+C:\Users\ksogbo\source\repos\Contacts\Contacts.Plugins.DataStore.InMemory\Contacts.Plugins.DataStore.InMemory.csproj;neutral
+C:\Users\ksogbo\source\repos\Contacts\Contacts.UseCases\Contacts.UseCases.csproj;neutral
+C:\Users\ksogbo\source\repos\Contacts\Contacts.UseCases\Contacts.UseCases.csproj;neutral

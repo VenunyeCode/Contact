@@ -36,7 +36,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -2281,6 +2297,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -2319,7 +2386,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -4564,6 +4647,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -4602,7 +4736,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -6847,6 +6997,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -6885,7 +7086,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -9130,6 +9347,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -9168,7 +9436,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -11413,6 +11697,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -11451,7 +11786,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -13696,6 +14047,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -13734,7 +14136,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -15979,6 +16397,57 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -16017,7 +16486,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -18263,9 +18748,60 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0": {
+    "net8.0-ios17.2": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -18300,7 +18836,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -18760,9 +19312,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/android-arm": {
+    "net8.0-ios17.2/android-arm": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -18797,7 +19400,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -19257,9 +19876,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/android-arm64": {
+    "net8.0-ios17.2/android-arm64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -19294,7 +19964,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -19754,9 +20440,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/android-x64": {
+    "net8.0-ios17.2/android-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -19791,7 +20528,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -20251,9 +21004,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/android-x86": {
+    "net8.0-ios17.2/android-x86": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -20288,7 +21092,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -20748,9 +21568,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/iossimulator-x64": {
+    "net8.0-ios17.2/iossimulator-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -20785,7 +21656,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -21245,9 +22132,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/maccatalyst-x64": {
+    "net8.0-ios17.2/maccatalyst-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -21282,7 +22220,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -21742,9 +22696,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-ios17.0/win10-x64": {
+    "net8.0-ios17.2/win10-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -21779,7 +22784,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -22239,9 +23260,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0": {
+    "net8.0-maccatalyst17.2": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -22276,7 +23348,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -22736,9 +23824,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/android-arm": {
+    "net8.0-maccatalyst17.2/android-arm": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -22773,7 +23912,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -23233,9 +24388,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/android-arm64": {
+    "net8.0-maccatalyst17.2/android-arm64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -23270,7 +24476,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -23730,9 +24952,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/android-x64": {
+    "net8.0-maccatalyst17.2/android-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -23767,7 +25040,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -24227,9 +25516,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/android-x86": {
+    "net8.0-maccatalyst17.2/android-x86": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -24264,7 +25604,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -24724,9 +26080,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/iossimulator-x64": {
+    "net8.0-maccatalyst17.2/iossimulator-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -24761,7 +26168,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -25221,9 +26644,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/maccatalyst-x64": {
+    "net8.0-maccatalyst17.2/maccatalyst-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -25258,7 +26732,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -25718,9 +27208,60 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
-    "net8.0-maccatalyst17.0/win10-x64": {
+    "net8.0-maccatalyst17.2/win10-x64": {
       "CommunityToolkit.Maui/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -25755,7 +27296,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -26214,6 +27771,57 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -26253,7 +27861,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -26874,6 +28498,57 @@
             "rid": "win"
           }
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -26912,7 +28587,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -27498,6 +29189,57 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -27537,7 +29279,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -28123,6 +29881,57 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -28162,7 +29971,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -28748,6 +30573,57 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -28787,7 +30663,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -29373,6 +31265,57 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -29412,7 +31355,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -29998,6 +31957,57 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
         }
       }
     },
@@ -30037,7 +32047,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -30624,6 +32650,57 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
@@ -30662,7 +32739,23 @@
           }
         }
       },
-      "Faker.Net/2.0.154": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
+      "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -31255,6 +33348,57 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Contacts.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.CoreBusiness.dll": {}
+        }
+      },
+      "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Contacts.UseCases": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "Contacts.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Maui": "7.0.1",
+          "Contacts.CoreBusiness": "1.0.0",
+          "Faker.Net": "2.0.163",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contacts.UseCases.dll": {}
+        }
       }
     }
   },
@@ -31312,14 +33456,45 @@
         "lib/net8.0/CommunityToolkit.Maui.Core.xml"
       ]
     },
-    "Faker.Net/2.0.154": {
-      "sha512": "pkabhT7wxNR1gkPO6ga77XdeqBblaE8a1oY47eMGGvM7DMZ9S8ARZrKkRWaPUNjGCOqtH3oeQSMuEPxd98ir4w==",
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "sha512": "r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
       "type": "package",
-      "path": "faker.net/2.0.154",
+      "path": "communitytoolkit.mvvm/8.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "faker.net.2.0.154.nupkg.sha512",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "Faker.Net/2.0.163": {
+      "sha512": "nQZA+V19Jf6tSeFnuRWpoVZzSHRmtfOYAnX5RbkY6+HBHpLg55DYTnxUSXeFHpmsgQzmkjG7Ucomk7FisJnfhA==",
+      "type": "package",
+      "path": "faker.net/2.0.163",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "faker.net.2.0.163.nupkg.sha512",
         "faker.net.nuspec",
         "lib/net452/Faker.Net.4.5.dll",
         "lib/net452/de-DE/Faker.Net.4.5.resources.dll",
@@ -35666,28 +37841,55 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "Contacts.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../Contacts.CoreBusiness/Contacts.CoreBusiness.csproj",
+      "msbuildProject": "../Contacts.CoreBusiness/Contacts.CoreBusiness.csproj"
+    },
+    "Contacts.Plugins.DataStore.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../Contacts.Plugins.DataStore.InMemory/Contacts.Plugins.DataStore.InMemory.csproj",
+      "msbuildProject": "../Contacts.Plugins.DataStore.InMemory/Contacts.Plugins.DataStore.InMemory.csproj"
+    },
+    "Contacts.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../Contacts.UseCases/Contacts.UseCases.csproj",
+      "msbuildProject": "../Contacts.UseCases/Contacts.UseCases.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
       "CommunityToolkit.Maui >= 7.0.1",
-      "Faker.Net >= 2.0.154",
+      "CommunityToolkit.Mvvm >= 8.2.2",
+      "Contacts.CoreBusiness >= 1.0.0",
+      "Contacts.Plugins.DataStore.InMemory >= 1.0.0",
+      "Contacts.UseCases >= 1.0.0",
+      "Faker.Net >= 2.0.163",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
-    "net8.0-ios17.0": [
+    "net8.0-ios17.2": [
       "CommunityToolkit.Maui >= 7.0.1",
-      "Faker.Net >= 2.0.154",
+      "CommunityToolkit.Mvvm >= 8.2.2",
+      "Contacts.CoreBusiness >= 1.0.0",
+      "Contacts.Plugins.DataStore.InMemory >= 1.0.0",
+      "Contacts.UseCases >= 1.0.0",
+      "Faker.Net >= 2.0.163",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0"
     ],
-    "net8.0-maccatalyst17.0": [
+    "net8.0-maccatalyst17.2": [
       "CommunityToolkit.Maui >= 7.0.1",
-      "Faker.Net >= 2.0.154",
+      "CommunityToolkit.Mvvm >= 8.2.2",
+      "Contacts.CoreBusiness >= 1.0.0",
+      "Contacts.Plugins.DataStore.InMemory >= 1.0.0",
+      "Contacts.UseCases >= 1.0.0",
+      "Faker.Net >= 2.0.163",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
@@ -35695,7 +37897,11 @@
     ],
     "net8.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 7.0.1",
-      "Faker.Net >= 2.0.154",
+      "CommunityToolkit.Mvvm >= 8.2.2",
+      "Contacts.CoreBusiness >= 1.0.0",
+      "Contacts.Plugins.DataStore.InMemory >= 1.0.0",
+      "Contacts.UseCases >= 1.0.0",
+      "Faker.Net >= 2.0.163",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3"
@@ -35737,19 +37943,59 @@
       "frameworks": {
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj"
+            }
+          }
         },
-        "net8.0-ios17.0": {
+        "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj"
+            }
+          }
         },
-        "net8.0-maccatalyst17.0": {
+        "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj"
+            }
+          }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.CoreBusiness\\Contacts.CoreBusiness.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Plugins.DataStore.InMemory\\Contacts.Plugins.DataStore.InMemory.csproj"
+            },
+            "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj": {
+              "projectPath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.UseCases\\Contacts.UseCases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -35766,9 +38012,13 @@
             "target": "Package",
             "version": "[7.0.1, )"
           },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Faker.Net": {
             "target": "Package",
-            "version": "[2.0.154, )"
+            "version": "[2.0.163, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
@@ -35810,16 +38060,20 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-ios17.0": {
+      "net8.0-ios17.2": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[7.0.1, )"
           },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Faker.Net": {
             "target": "Package",
-            "version": "[2.0.154, )"
+            "version": "[2.0.163, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
@@ -35861,16 +38115,20 @@
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       },
-      "net8.0-maccatalyst17.0": {
+      "net8.0-maccatalyst17.2": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[7.0.1, )"
           },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Faker.Net": {
             "target": "Package",
-            "version": "[2.0.154, )"
+            "version": "[2.0.163, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
@@ -35920,9 +38178,13 @@
             "target": "Package",
             "version": "[7.0.1, )"
           },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Faker.Net": {
             "target": "Package",
-            "version": "[2.0.154, )"
+            "version": "[2.0.163, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",

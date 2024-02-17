@@ -3,9 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts.Maui.Views.ContactPage"
              Title="Contact Page">
-    <Grid RowDefinitions="*, 50"
-          ColumnDefinitions="*">
-        <ListView Grid.Row="0"
+    <Grid RowDefinitions="50, *, 50"
+          ColumnDefinitions="*"
+          Padding="5">
+
+        <SearchBar
+            Grid.Row="0"
+            x:Name="searchBar"
+            Grid.Column="0"
+            TextChanged="SearchBar_TextChanged"> <!--Use this one instead of SearchButtonPressed="*"-->
+
+        </SearchBar>
+        <ListView Grid.Row="1"
             Grid.Column="0"
             x:Name="listContacts" 
             BackgroundColor="Transparent"
@@ -19,15 +28,23 @@
                     <TextCell 
                         Text="{Binding Name}"
                         Detail="{Binding Email}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Delete"
+                                Clicked="Delete_Clicked"
+                                CommandParameter="{Binding .}">
+                            </MenuItem>
+                        </TextCell.ContextActions>
                     </TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
         <Button
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="0"
             x:Name="addContact"
-            Clicked="addContact_Clicked">
+            Clicked="addContact_Clicked"
+            Text="Add another contact">
+           
             
         </Button>
     </Grid>

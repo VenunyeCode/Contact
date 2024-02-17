@@ -1,0 +1,10 @@
+﻿global using Contacts.CoreBusiness;
+global using Contacts.UseCases.Interfaces;
+global using Contacts.Plugins.DataStore.InMemory;
+global using Contact = Contacts.CoreBusiness.Contact;
+global using Contacts.UseCases;
+global using Contacts.Maui.Views;
+global using Contacts.Maui.Extensions;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using Contacts.Maui.ViewModels;

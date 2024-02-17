@@ -17,7 +17,13 @@
     <MauiXaml Update="Views\ContactPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Controls\ContactControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\EditContactPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views_Mvvm\ContactsMvvmPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

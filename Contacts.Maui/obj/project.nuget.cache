@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zNtWWhX6EB+M20gNvzD3ccZDn0rHDWEZVNA1kYxqW2E4oOqzbOLH8gSNkkdHGq2vcT3p+jytkwyMnIS2dvOklA==",
+  "dgSpecHash": "U9qxtsTpdQ/hbEvnFmzBi7U9ruN3gqwpa3sGP4018gy/ECKzCLKTT+TWcZU/tGU4FGCiaJym+hsisevBV21ztw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ksogbo\\source\\repos\\Contacts\\Contacts.Maui\\Contacts.Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ksogbo\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\communitytoolkit.maui.7.0.1.nupkg.sha512",
     "C:\\Users\\ksogbo\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\communitytoolkit.maui.core.7.0.1.nupkg.sha512",
-    "C:\\Users\\ksogbo\\.nuget\\packages\\faker.net\\2.0.154\\faker.net.2.0.154.nupkg.sha512",
+    "C:\\Users\\ksogbo\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\ksogbo\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
     "C:\\Users\\ksogbo\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\ksogbo\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\ksogbo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

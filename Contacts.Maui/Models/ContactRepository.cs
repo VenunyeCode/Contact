@@ -2,7 +2,7 @@
 {
     public static class ContactRepository
     {
-        public static List<Contact> contacts = Add();
+        public static List<Contact> contacts = Generate();
 
         public static List<Contact> GetAll()
             => contacts;
@@ -24,8 +24,13 @@
             return null;
         }
 
-        public static void Delete(int id) 
-            => contacts.Remove(GetById(id));
+        public static void Delete(int id)
+        {
+            var contact = contacts.FirstOrDefault(x => x.Id == id);
+            if(contact is not null)
+                contacts.Remove(contact);
+        }
+        
 
         public static void Update(int id, Contact contact)
         {
@@ -41,10 +46,10 @@
 
         }
 
-        public static List<Contact> Add()
+        public static List<Contact> Generate()
         {
             List<Contact> list = new List<Contact>();
-            for (int i = 0; i<10; i++)
+            for (int i = 0; i<5; i++)
             {
                 list.Add(new Contact()
                 {
@@ -57,6 +62,31 @@
                 });
             } 
             return list;
+        }
+
+        public static void Add(Contact contact)
+        {
+            contact.Id = contacts.Last().Id + 1;
+            contacts.Add(contact);
+        }
+
+        public static List<Contact> SearchContacts(string text)
+        {
+
+            var c = contacts.Where(x => !string.IsNullOrWhiteSpace(x.Name) && (x.Name.StartsWith(text, StringComparison.OrdinalIgnoreCase) || x.Name.Contains(text, StringComparison.OrdinalIgnoreCase))).ToList();
+            if (c == null || c.Count == 0)
+                c = contacts.Where(x => !string.IsNullOrWhiteSpace(x.Phone) && x.Phone.StartsWith(text, StringComparison.OrdinalIgnoreCase)).ToList();
+            else return c;
+
+            if (c == null || c.Count == 0)
+                c = contacts.Where(x => !string.IsNullOrWhiteSpace(x.Email) && x.Email.StartsWith(text, StringComparison.OrdinalIgnoreCase)).ToList();
+            else return c;
+
+            if (c == null || c.Count == 0)
+                c = contacts.Where(x =>  !string.IsNullOrWhiteSpace(x.Address) && x.Address.StartsWith(text, StringComparison.OrdinalIgnoreCase)).ToList();
+            else return c;
+
+            return c;
         }
     }
 }
